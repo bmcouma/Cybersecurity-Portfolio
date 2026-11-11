@@ -1,0 +1,17 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Raw captures and logs; publish only sanitized, approved evidence
+*.pcap
+*.pcapng
+*.log
+
+# Local-only evidence and working files
+private/
+evidence/private/
+.DS_Store
+Thumbs.db
